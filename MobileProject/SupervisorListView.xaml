@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage Title="My Retail Clients" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileProject.SupervisorListView">
+    <ScrollView>
+        <ListView  HasUnevenRows="true" x:Name="MyListView"  ItemsSource="{Binding Clients}" CachingStrategy="RecycleElement">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Entry Text="{Binding Name}" FontAttributes="Bold" Margin="20,20,0,0" VerticalOptions="StartAndExpand" Style="{DynamicResource ListItemTextStyle}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ScrollView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Merchandisers" Activated="MerchandisersButtonClicked" Priority="0" Order="Secondary" />
+        <ToolbarItem Name="Add Client" Activated="AddClientButtonClicked" Priority="1" Order="Secondary" />
+        <ToolbarItem Name="Save All Clients" Activated="SaveAllClientsButtonClicked" Priority="2" Order="Secondary" />
+        <ToolbarItem Name="Delete All Clients" Activated="DeleteAllClientsButtonClicked" Priority="3" Order="Secondary" />
+    </ContentPage.ToolbarItems>
+</ContentPage>

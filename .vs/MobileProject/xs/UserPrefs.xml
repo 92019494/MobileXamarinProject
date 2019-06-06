@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{2482AE3C-E8A6-4AC1-A652-F7E70DC06FF9}|Default">
+  <MonoDevelop.Ide.ItemProperties.MobileProject.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.2nd_device" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileProject/TicketDataAccess.cs">
+    <Files>
+      <File FileName="MobileProject.Android/DatabaseConnection_Android.cs" Line="9" Column="1" />
+      <File FileName="MobileProject/TicketDataAccess.cs" Line="31" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MobileProject" expanded="True">
+            <Node name="MobileProject" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MerchandiserListView.xaml" expanded="True" />
+              <Node name="MyPage.xaml" expanded="True" />
+              <Node name="SupervisorListView.xaml" expanded="True" />
+              <Node name="SupervisorsMerchandisersListView.xaml" expanded="True" />
+              <Node name="TicketDataAccess.cs" selected="True" />
+            </Node>
+            <Node name="MobileProject.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

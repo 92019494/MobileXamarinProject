@@ -1,0 +1,16 @@
+/Users/anthony/Projects/MobileProject/MobileProject/bin/Debug/netstandard2.0/MobileProject.deps.json
+/Users/anthony/Projects/MobileProject/MobileProject/bin/Debug/netstandard2.0/MobileProject.dll
+/Users/anthony/Projects/MobileProject/MobileProject/bin/Debug/netstandard2.0/MobileProject.pdb
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MobileProject.csprojAssemblyReference.cache
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MobileProject.csproj.CoreCompileInputs.cache
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MobileProject.AssemblyInfoInputs.cache
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MobileProject.AssemblyInfo.cs
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MobileProject.dll
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MobileProject.pdb
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/SupervisorListView.xaml.g.cs
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/MerchandiserListView.xaml.g.cs
+/Users/anthony/Projects/MobileProject/MobileProject/obj/Debug/netstandard2.0/SupervisorsMerchandisersListView.xaml.g.cs

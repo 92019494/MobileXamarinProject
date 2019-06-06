@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Select" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileProject.MyPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Are you a Merchandiser or Supervisor?" HorizontalTextAlignment="Center" Margin="50,80,50,0"  FontAttributes="Bold" Style="{DynamicResource TitleStyle}" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Button Text="Merchandiser" Margin="0,40,0,0"  FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Clicked="MerchandiserButtonClicked" />
+        <Button Text="Supervisor" Margin="0,40,0,0"  FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Clicked="SupervisorButtonClicked" />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage Title="My Tickets" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileProject.MerchandiserListView">
+    
+        <ListView HasUnevenRows="true" x:Name="MyListView" ItemsSource="{Binding Items}" ItemTapped="Handle_ItemTapped"  CachingStrategy="RecycleElement">
+            <!--Built in Cells   CachingStrategy="RecycleElement"-->
+            <!--Custom View Cells-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ContentView BackgroundColor="{Binding Background_color}"> 
+                        
+                            <StackLayout>
+                                <Label TextColor="Black" Text="Ticket" FontAttributes="Bold" FontSize="30" Margin="0,60,0,20" HorizontalOptions="CenterAndExpand" />
+                                <Label Text="Task:" FontAttributes="Bold" Style="{DynamicResource TitleStyle}" HorizontalOptions="CenterAndExpand" />
+                                <Label Text="{Binding Task}" x:Name="taskLabel" WidthRequest="500" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand"  Margin="40,0,40,0" Style="{DynamicResource TitleStyle}" HorizontalOptions="CenterAndExpand" />
+                                <Label Text="Status:" FontAttributes="Bold" Style="{DynamicResource TitleStyle}" Margin="0,40,0,0" HorizontalOptions="CenterAndExpand" />
+                                <Label Text="{Binding Current_status}" WidthRequest="400" HorizontalTextAlignment="Center" Style="{DynamicResource TitleStyle}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                <Label Text="Time Taken:" Style="{DynamicResource TitleStyle}" FontAttributes="Bold" Margin="0,40,0,0" HorizontalOptions="CenterAndExpand" />
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="{Binding Time_taken_hours}" WidthRequest="25" FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" />
+                                    <Label Text="hours" FontSize="20" HorizontalOptions="CenterAndExpand" />
+                                    <Label Text="{Binding Time_taken_minutes}" WidthRequest="25" FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" />
+                                    <Label Text="minutes" FontSize="20" HorizontalOptions="CenterAndExpand" />
+                                    <Label Text="{Binding Time_taken_seconds}" WidthRequest="25" FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" />
+                                    <Label Text="seconds" FontSize="20" HorizontalOptions="CenterAndExpand" />
+                                </StackLayout>
+                                <Label Text="Comments:" Style="{DynamicResource TitleStyle}" FontAttributes="Bold" Margin="0,40,0,0" HorizontalOptions="CenterAndExpand" />
+                                <Label Text="{Binding Comment}" MaxLines="8" HeightRequest="100" WidthRequest="500" Style="{DynamicResource TitleStyle}" Margin="10,0,10,10" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+                                <Entry Text="{Binding Comment_entry}" Style="{DynamicResource TitleStyle}" Placeholder="Enter comments here" Margin="0,0,0,40" HorizontalOptions="CenterAndExpand" />
+                            </StackLayout>
+                        </ContentView>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+  
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Start Ticket" Activated="StartTicketButtonClicked" Priority="0" Order="Secondary" />
+        <ToolbarItem Name="Stop Ticket" Activated="StopTicketButtonClicked" Priority="1" Order="Secondary" />
+        <ToolbarItem Name="Mark Ticket Completed" Activated="CompleteTicketButtonClicked" Priority="2" Order="Secondary" />
+        <ToolbarItem Name="Add Comment" Activated="AddCommentButtonClicked" Priority="3" Order="Secondary" />
+        <ToolbarItem Name="Delete Comment" Activated="DeleteCommentButtonClicked" Priority="4" Order="Secondary" />
+    </ContentPage.ToolbarItems>
+</ContentPage>
